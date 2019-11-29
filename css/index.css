@@ -149,10 +149,9 @@ li{
 .routine-flex{
     display:flex;
     justify-content: space-around;
-}
-.routine-flex{
     font-size: 1.2rem;
 }
+
 .routine{
     padding: .5% 0;
     display:flex;
@@ -163,7 +162,7 @@ li{
 .routine-one{
     width: 90%;
 }
-.routine-one li{
+.routine-flex li{
     font-size: 1.2rem;
 }
 .routine-two{
