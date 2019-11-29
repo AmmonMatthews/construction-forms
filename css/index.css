@@ -1,0 +1,743 @@
+/* Reset */
+
+*{
+    box-sizing: border-box; 
+    margin: 0; 
+    padding: 0; 
+    max-width:100% ;
+    color-adjust: exact; 
+    -webkit-print-color-adjust: exact; 
+    
+    /* border: 2px solid gray; */
+}
+
+/* General Styles */
+  
+html {
+    font-size: 62.5%;
+  }
+  
+html, body {
+    font-family: 'Lato', sans-serif;
+    height: 100%;
+    
+
+
+  }
+  
+h1, h2, h3, h4, h5 {
+    font-family: 'Lato', sans-serif;
+  }
+  
+
+
+
+  
+img {
+    max-width: 100%;
+    height: auto;
+  }
+
+
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid black;
+    
+
+}
+.container-two{
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-top: 1px solid black;
+}
+
+.box{
+    margin: 0 3px;
+}
+.box-one{
+    margin: 0 .3%;
+}
+.border{
+    border:.75px solid black;
+}
+p{
+    font-size: 1.2rem;
+    padding:.5%;
+}
+li{
+    font-size: 1rem;
+}
+.underline{
+    text-decoration: underline;
+    font-size:1.3rem;
+    margin-right: 3px;
+}
+
+.font{
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+/* Header */
+
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    border:.5px solid black;
+    
+}
+
+.contract{
+    display:flex;
+    width: 30%;
+    border: 0.5px solid black;
+    justify-content: center;
+    align-items: center; 
+    padding: 10px 0;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.job-risk{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    border:.5px solid black;
+    padding: 10px 0;
+    font-size: 1.25rem;
+}
+
+.date{
+    width: 15%;
+    border:.5px solid black;
+    text-align: start;
+    padding: 0;
+}
+
+.shift{
+    width: 12%;
+    border:.5px solid black;
+    padding-left: 2px;
+}
+
+.text-center{
+    text-align: center;
+}
+.text-center p{
+    padding: .5% 0;
+    border: .5px solid black;
+}
+
+/* Section One */
+.equi-work{
+    display:flex;
+}
+
+.equi{
+    width: 35%;
+    padding: 2px;
+}
+.work-area{
+    width: 65%;
+    padding: 2px;
+}
+
+.routine-flex{
+    display:flex;
+    justify-content: space-around;
+}
+.routine-flex{
+    font-size: 1.2rem;
+}
+.routine{
+    padding: .5% 0;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 33%;
+}
+.routine-one{
+    width: 90%;
+}
+.routine-one li{
+    font-size: 1.2rem;
+}
+.routine-two{
+    padding-left: 5px;
+    width: 35%;
+}
+.routine-sop{
+    width: 65%;
+}
+
+.routine ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* Fatal Risk Management */
+
+.fatal{
+    font-size: 1.25rem;
+    border-bottom: 2px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    background: orange;
+    text-align: center;
+}
+.fatal span{
+    font-size: 1rem;
+}
+.icons{
+    display: flex;
+    flex-flow:  wrap;
+    justify-content: space-evenly;
+    padding: 1% 1% 0 1%;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+   
+}
+.icon{
+    display: flex;
+    width:25%;
+    align-items: center;
+}
+
+.icon img{
+    width: 25%;
+}
+
+
+
+.icon-ve{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+.icon-ve img{
+    padding: 0 0 .75% .75%; 
+    width: 7%;
+}
+.icon-ve p{
+    padding: 0;
+}
+
+/* Additional Hazard (add-haz) */
+.add-haz{
+    font-size: 1.25rem;
+    border: 1px solid black;
+    text-align: center;
+    padding: .5%
+}
+
+.add-haz span{
+    font-size: 1rem;
+}
+
+.haz-one{
+    display:flex;
+    flex-wrap: wrap;
+}
+.yellow{
+    background-color: yellow;
+    text-align:center; 
+    padding-top: 1%;
+
+}
+
+
+
+.work-env{
+    width:50%;
+    border: 1px solid black;
+    padding-bottom: 2%;
+}
+
+.work-env p{
+    text-align: center;
+}
+
+.work-env ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.work-env li{
+    width: 50%;
+    padding-bottom: 2%;
+    padding-left:1%;
+}
+
+.energy{
+    width:50%;
+    border: 1px solid black;
+    padding-bottom: 2%;
+}
+
+.energy p{
+    text-align: center;
+}
+
+.energy ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.energy li{
+    width: 50%;
+    padding-bottom: 3%;
+    padding-left:1%;
+}
+
+.line{
+    width:50%;
+    border: 1px solid black;
+    padding-bottom: 2%;
+}
+
+.line p{
+    text-align: center;
+}
+
+.line ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.line li{
+    width: 50%;
+    padding-bottom: 2%;
+    padding-left:1%;
+}
+
+.personal{
+    width:50%;
+    border: 1px solid black;
+    padding-bottom: 2%;
+}
+
+.personal p{
+    text-align: center;
+}
+
+.personal ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.personal li{
+    width: 50%;
+    padding-left:1%;
+    padding-bottom: 2%;
+}
+
+/* footer */
+.footer{
+    text-align: center;
+    color: red;
+    padding: 5%;
+}
+
+/* Back Page */
+/* Header */
+.control{
+    display:flex;
+  
+    padding: .5% 0; 
+    border-top: 2px solid black;
+
+    
+}
+.control-one{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    text-align: center;
+
+    
+}
+.control-one h3{
+    text-decoration: underline;
+    font-size:1.3rem;
+}
+.control-one p{
+    font-weight: bold;
+    align-items: center;
+    width: 85%;
+    padding: 2.75%;
+}
+.forrest{
+    background-color: #6B8E23;
+
+}
+
+.olive{
+    background-color: #9ACD32;
+}
+
+.yellow-one{
+    background-color: #FFFF00;
+}
+
+.gold{
+    background-color: #FFD700;
+}
+
+.orange{
+    background-color: #FF4500;
+
+}
+
+.red{
+    background-color: #F00;
+
+}
+.control-two{
+    
+    width: 85%;
+    padding: 0 2%;
+}
+
+.underline{
+    text-decoration: underline;
+    font-size:1.3rem;
+    margin-right: 3px;
+}
+
+.font{
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.control-two ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.control-two li{
+    width: 30%;
+    margin: .75% 0;
+    font-size: 1.1rem;
+}
+
+.other{
+    display:flex;
+    width: 100%;
+    font-weight: bold;
+    margin-top: .5%;
+    
+}
+.other-two{
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+.other-t{
+    width: 100%;
+    border-bottom: 1px solid black;
+    padding: 3%;
+}
+
+.end{
+    text-align: right;
+    margin-top: 2%;
+    
+
+}
+
+/* Permits/Forms */
+.permit{
+    margin: 0 1%;
+   
+}
+.permit ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.permit li{
+    width:25%;
+    padding: .25%;
+    font-size: 1.1rem;
+}
+.permit-other{
+    font-weight: bold;
+    margin:0 1%;
+}
+/* Behavior */
+
+.behavior{
+    padding: 0 1%;
+    border-top: 1px solid black;
+}
+.behavior ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.behavior li{
+    width:25%;
+    padding: .25%;
+    font-size: 1.1rem;
+}
+
+
+/* PPE */
+.ppe{
+    margin: 0 1%;
+   
+}
+.ppe ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.ppe li{
+    width:33%;
+    padding: .25%;
+    font-size: 1.1rem;
+    
+}
+
+/* Fatal Risks and Critical Controls */
+
+.fatal-risks{
+    margin: 0 1%;
+    display: flex;
+}
+.fatal-hazards{
+    width: 50%;
+}
+.fatal-hazards .dash{
+    display: block;
+    text-align: right;
+    padding: 1.5% 0;
+    width: 98%;
+}
+.fatal-hazards p{
+    display: inline-block;
+    width: 97%;
+    padding: 1.5% 0;
+    margin-top: 2%;
+    
+    border-bottom: .5px solid black;
+}
+
+.fatal-hazards-div{
+    width: 50%;
+
+}
+
+.fatal-hazards-div p{
+    border-bottom: .5px solid black;
+    padding: 1.5% 0;
+    margin-top: 2.4%;
+    
+}
+
+/* Main Lockout  Points and In case of Emergency */
+
+.main-emerg{
+    margin: 0 0 0 1%;
+    display: flex;
+}
+.main-lockout{
+    margin-right: 1%;
+    margin-top: .5%;
+    width: 25%;
+}
+.main-lockout li{
+    padding: 6% 2% 1% 2%;
+    list-style-position: inside;
+    border-bottom: 1px solid black;
+}
+
+.emerg-box{
+    width: 75%;
+    border: 3px solid #ff0000;
+}
+.crimson{
+    background: #dc143c;
+    padding:5px;;
+}
+
+.emerg-box h3{
+    font-size: 1.4rem;
+}
+.emerg-boxo p{
+    font-size: 1.4rem;
+}
+
+
+
+.emerg-box .color-r{
+    color: #8b0000;
+    border-bottom: 1px solid #8b0000;
+}
+.darkred{
+    color: #8b0000;
+}
+.orange-one{
+    color: #ff8c00;
+}
+
+.evac{
+    display:flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-top: .5%;
+}
+.evac-width{
+    width: 22%;
+   
+}
+.evac-line{
+    width: 80%;
+    border-bottom: 1px solid black;
+}
+
+
+
+.emerg-box li{
+    margin: .5%;
+    list-style-type: none;
+    font-size: 1.3rem;
+}
+.emerg-list{
+    
+    margin: 1% 0;
+    display:flex; 
+    justify-content: space-between;  
+    align-items: flex-end;
+  
+}
+.emerg-list ul{
+    width: 50%;
+   
+}
+
+.emerg-list li{
+    padding: 1% 0;
+}
+.emerg-list p{
+    font-size: 1.3rem;
+    width: 50%;
+    text-align: end;
+}
+.green{
+    color: #6B8E23;
+}
+
+
+/* Acknowledgment & Commitment section */
+
+.aknow-safety{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    border-bottom: 2px solid black;
+}
+.aknow{
+    padding:1%;
+    width: 50%;
+}
+.aknow .underline{
+    font-size: 1.75rem;
+}
+
+.safety{
+    width:50%;
+    font-size: 1.25rem;
+    text-align: center;
+    
+}
+
+.payroll-table{
+    display: flex;
+}
+.payroll-flex{
+    display:flex;
+    width: 33.33%;
+   
+}
+.payroll-flex p{
+    border: .25px solid #000;
+    font-size:1.2rem;
+}
+.payroll-sect{
+    width: 80%;
+}
+.initials{
+    width: 20%;
+}
+.table-font{
+    font-size: 1rem;
+    margin-left: 20%;
+}
+.center{
+    text-align:center;
+    padding: 2%;
+}
+.empty{
+    padding: 4%;
+}
+.empty-i{
+    padding:16%;
+}
+
+/* Bottom Section */
+.seven p{
+    margin-top: 1%;
+    font-size: 1.2rem;
+}
+.bottom{
+    display: flex;
+    border-left:1px solid black;
+    border-right:1px solid black;
+}
+.bottom-one{
+    display:flex;
+    align-items: flex-end;
+    font-weight: bold;
+    width: 20%;
+    margin-top: .5%;
+}
+.bottom-two{
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+.jln{
+    border-bottom:1px solid #000;
+    font-weight: bold;
+    width: 40%;
+}
+.payroll{
+    width: 60%;
+}
+.time{
+    margin-left:5%;
+}
+.super{
+    display: flex;
+    border-bottom: 1px solid black;
+    border-left:1px solid black;
+    border-right: 1px solid black;
+}
+.super p{
+    width: 50%;
+    font-weight: bold;
+}
+
+/* Footer */
+.footer-one{
+    text-align: center;
+    color: red;
+    padding-top: 1.5%;
+
+}
+
+
