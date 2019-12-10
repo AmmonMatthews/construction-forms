@@ -39,7 +39,9 @@ img {
   }
 
 
-
+.page-border{
+    border:1px solid black;
+}
 .container{
     width: 100%;
     margin: 0 auto;
@@ -52,7 +54,9 @@ img {
     border-left: 2px solid black;
     border-top: 1px solid black;
 }
-
+input{
+    box-shadow: none;
+}
 .box{
     margin: 0 3px;
 }
@@ -78,6 +82,11 @@ li{
 .font{
     font-size: 1.1rem;
     font-weight: 400;
+}
+.title-background{
+    background-color: lightgray;
+    width: 100%;
+    margin: 0;
 }
 
 /* Header */
@@ -402,6 +411,10 @@ li{
 .control-two{
     
     width: 85%;
+    /* padding: 0 2%; */
+}
+
+.control-two h3{
     padding: 0 2%;
 }
 
@@ -451,8 +464,8 @@ li{
 }
 
 /* Permits/Forms */
-.permit{
-    margin: 0 1%;
+.permit h3{
+    padding: 0 1%;
    
 }
 .permit ul{
@@ -471,8 +484,11 @@ li{
 /* Behavior */
 
 .behavior{
-    padding: 0 1%;
+    
     border-top: 1px solid black;
+}
+.behavior h3{
+    padding: 0 1%;
 }
 .behavior ul{
     display: flex;
@@ -486,8 +502,10 @@ li{
 
 
 /* PPE */
-.ppe{
-    margin: 0 1%;
+.ppe h3{
+    /* margin: 0 1%; */
+    padding: 0 1%;
+    
    
 }
 .ppe ul{
