@@ -58,16 +58,24 @@ input{
     box-shadow: none;
 }
 .box{
-    margin: 0 3px;
+    margin: 0 3%;
+    padding: 0px 8px;
+    border: 1px solid black;
+
 }
 .box-one{
-    margin: 0 .3%;
+    display:inline-block;
+    padding: 4px 6px;
+    margin-left: 1px;
+    border: 1px solid black;
+    
+
 }
 .border{
     border:.75px solid black;
 }
 p{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     padding:.5%;
 }
 li{
@@ -105,8 +113,8 @@ li{
     border: 0.5px solid black;
     justify-content: center;
     align-items: center; 
-    padding: 10px 0;
-    font-size: 1.5rem;
+    padding: 8px 0;
+    font-size: 1.2rem;
     font-weight: 900;
 }
 
@@ -116,8 +124,8 @@ li{
     align-items: center;
     width: 45%;
     border:.5px solid black;
-    padding: 10px 0;
-    font-size: 1.25rem;
+    padding: 8px 0;
+    font-size: 1.1rem;
 }
 
 .date{
@@ -158,7 +166,7 @@ li{
 .routine-flex{
     display:flex;
     justify-content: space-around;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .routine{
@@ -167,18 +175,21 @@ li{
     justify-content: flex-start;
     align-items: center;
     width: 33%;
+    
 }
 .routine-one{
     width: 90%;
 }
 .routine-flex li{
-    font-size: 1.2rem;
+    font-size: 1rem;
+    padding-bottom: 1px;
 }
 .routine-two{
     padding-left: 5px;
     width: 35%;
 }
 .routine-sop{
+    padding-left: 30px;
     width: 65%;
 }
 
@@ -252,6 +263,9 @@ li{
 .haz-one{
     display:flex;
     flex-wrap: wrap;
+}
+.haz-one ul{
+    margin-top: 1%;
 }
 .yellow{
     background-color: yellow;
@@ -584,7 +598,7 @@ li{
 .emerg-box h3{
     font-size: 1.4rem;
 }
-.emerg-boxo p{
+.emerg-box p{
     font-size: 1.4rem;
 }
 
