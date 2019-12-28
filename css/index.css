@@ -365,6 +365,9 @@ li{
     text-align: center;
     color: red;
     padding: 5%;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
 }
 
 /* Back Page */
@@ -488,7 +491,7 @@ li{
 }
 .permit li{
     width:25%;
-    padding: .25%;
+    padding: .45%;
     font-size: 1.1rem;
 }
 .permit-other{
@@ -510,7 +513,7 @@ li{
 }
 .behavior li{
     width:25%;
-    padding: .25%;
+    padding: .45%;
     font-size: 1.1rem;
 }
 
@@ -528,7 +531,7 @@ li{
 }
 .ppe li{
     width:33%;
-    padding: .25%;
+    padding: .45%;
     font-size: 1.1rem;
     
 }
@@ -768,6 +771,10 @@ li{
     text-align: center;
     color: red;
     padding-top: 1.5%;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+
 
 }
 
