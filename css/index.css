@@ -20,7 +20,7 @@ html {
 html, body {
     font-family: 'Lato', sans-serif;
     height: 100%;
-    
+    margin: 0;
 
 
   }
@@ -59,13 +59,13 @@ input{
 }
 .box{
     margin: 0 3%;
-    padding: 0px 8px;
+    padding: 0px 6px;
     border: 1px solid black;
 
 }
 .box-one{
     display:inline-block;
-    padding: 4px 6px;
+    padding: 4px 4px;
     margin-left: 1px;
     border: 1px solid black;
     
@@ -75,7 +75,7 @@ input{
     border:.75px solid black;
 }
 p{
-    font-size: 1.1rem;
+    font-size: 1rem;
     padding:.5%;
 }
 li{
@@ -375,7 +375,7 @@ li{
 .control{
     display:flex;
   
-    padding: .5% 0; 
+    padding-bottom: .5%; 
     border-top: 2px solid black;
 
     
@@ -583,6 +583,7 @@ li{
     margin-top: .5%;
     width: 25%;
 }
+
 .main-lockout li{
     padding: 6% 2% 1% 2%;
     list-style-position: inside;
@@ -726,7 +727,7 @@ li{
 /* Bottom Section */
 .seven p{
     margin-top: 1%;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 .bottom{
     display: flex;
@@ -770,7 +771,7 @@ li{
 .footer-one{
     text-align: center;
     color: red;
-    padding-top: 1.5%;
+    padding-top: 2%;
     border-bottom: 2px solid black;
     border-right: 2px solid black;
     border-left: 2px solid black;
