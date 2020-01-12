@@ -390,7 +390,7 @@ li{
 }
 .control-one h3{
     text-decoration: underline;
-    font-size:1.3rem;
+    font-size:1rem;
 }
 
 .control-one p{
@@ -398,6 +398,7 @@ li{
     align-items: center;
     width: 85%;
     padding: 2.75%;
+    font-size: .9rem;
 }
 .forrest{
     background-color: #6B8E23;
@@ -481,9 +482,11 @@ li{
 
 .end{
     text-align: right;
-    margin-top: 2%;
-    
+    margin-top: .5%;
+}
 
+.end p{
+    font-size: .75rem;
 }
 
 /* Permits/Forms */
