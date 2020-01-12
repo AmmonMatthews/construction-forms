@@ -392,9 +392,7 @@ li{
     text-decoration: underline;
     font-size:1.3rem;
 }
-.control-one h3{
-    font-size: 1.1rem;
-}
+
 .control-one p{
     font-weight: bold;
     align-items: center;
@@ -439,12 +437,12 @@ li{
 
 .underline{
     text-decoration: underline;
-    font-size:1.3rem;
+    font-size:1rem;
     margin-right: 3px;
 }
 
 .font{
-    font-size: 1.1rem;
+    font-size: .75rem;
     font-weight: 400;
 }
 
@@ -455,7 +453,7 @@ li{
 .control-two li{
     width: 30%;
     margin: .75% 0;
-    font-size: 1.1rem;
+    font-size: .75rem;
 }
 
 .other{
@@ -464,6 +462,12 @@ li{
     font-weight: bold;
     margin-top: .5%;
     
+}
+.other p{
+    font-size: .75rem;
+}
+.other-one{
+    font-size: .75rem;
 }
 .other-two{
     width: 100%;
@@ -494,10 +498,10 @@ li{
 .permit li{
     width:25%;
     padding: .45%;
-    font-size: 1.1rem;
+    font-size: .75rem;
 }
 .permit-other{
-
+    font-size: .75rem;
     margin:0 1%;
 }
 /* Behavior */
@@ -516,7 +520,7 @@ li{
 .behavior li{
     width:25%;
     padding: .45%;
-    font-size: 1.1rem;
+    font-size: .75rem;
 }
 
 
@@ -534,7 +538,7 @@ li{
 .ppe li{
     width:33%;
     padding: .45%;
-    font-size: 1.1rem;
+    font-size: .75rem;
     
 }
 
@@ -641,6 +645,7 @@ li{
     justify-content: flex-end;
     width: 100%;
     margin-top: .5%;
+    font-size: .75rem;
 }
 .evac-width{
     width: 22%;
