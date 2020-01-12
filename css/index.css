@@ -374,7 +374,6 @@ li{
 /* Header */
 .control{
     display:flex;
-  
     padding-bottom: .5%; 
     border-top: 2px solid black;
 
@@ -392,6 +391,9 @@ li{
 .control-one h3{
     text-decoration: underline;
     font-size:1.3rem;
+}
+.control-one h3{
+    font-size: 1.1rem;
 }
 .control-one p{
     font-weight: bold;
@@ -585,7 +587,7 @@ li{
 }
 
 .main-lockout li{
-    padding: 6% 2% 1% 2%;
+    padding: 4% 2% 1% 2%;
     list-style-position: inside;
     border-bottom: 1px solid black;
 }
@@ -600,10 +602,10 @@ li{
 }
 
 .emerg-box h3{
-    font-size: 1.4rem;
+    font-size: 1.1rem;
 }
 .emerg-box p{
-    font-size: 1.4rem;
+    font-size: 1.1rem;
 }
 
 
@@ -627,6 +629,7 @@ li{
 }
 .evac-width{
     width: 22%;
+    
    
 }
 .evac-line{
@@ -639,7 +642,7 @@ li{
 .emerg-box li{
     margin: .5%;
     list-style-type: none;
-    font-size: 1.3rem;
+    /* font-size: 1.1rem; */
 }
 .emerg-list{
     
@@ -658,7 +661,7 @@ li{
     padding: 1% 0;
 }
 .emerg-list p{
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     width: 50%;
     text-align: end;
 }
@@ -681,7 +684,7 @@ li{
     width: 50%;
 }
 .aknow .underline{
-    font-size: 1.75rem;
+    font-size: 1.5rem;
 }
 
 .safety{
